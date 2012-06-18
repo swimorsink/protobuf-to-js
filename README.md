@@ -17,7 +17,7 @@ FYI, I tested this using a Mac running OSX 10.7.3.  As a result, you will probab
 need to change the location of the libraries to get the build to work.
 
 Once you've compiled the js plugin, you can run it using
-protoc --js_out=./ <proto file> --proto_path=<proto dir> --plugin=js/protoc-gen-js
+protoc --js_out=./ <proto file> --proto_path=<proto dir> --plugin=protoc-gen-js
 
 which will generate the <proto file>.pb.js which should compile with the closure compiler.
 
