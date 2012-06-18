@@ -1,0 +1,5 @@
+
+*.swp
+*.pb.cc
+*.pb.h
+protoc-gen-js
